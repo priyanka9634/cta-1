@@ -1,0 +1,1021 @@
+-- import: fifthtry.github.io/product-switcher/assets
+
+
+-- ftd.column:
+width: fill-container
+background.solid: $inherited.colors.background.step-1
+
+-- cta-1:
+help-info: Text Here
+cta-url: cta-url
+cta-txt: Button
+image : $assets.files.assets.placeholder.svg
+
+We transform ideas into digital outcomes to elevate the connection between 
+the brand and their users.
+
+
+
+-- cta-2:
+help-info: Text Here
+cta-url: cta-url
+cta-txt: Button
+image : $assets.files.assets.placeholder.svg
+
+We transform ideas into digital outcomes to elevate the connection between 
+the brand and their users.
+
+-- cta-3: We transform ideas into digital outcomes to elevate the connection.
+help-info: Label Here
+cta-url: cta-url
+cta-txt: Button
+
+A design approach is a general philosophy that may or may not include a guide 
+for specific methods.
+
+
+-- cta-4:
+help-info: Text Here
+cta-url: cta-url
+cta-txt: Button
+
+
+We transform ideas into digital outcomes to elevate the connection between 
+the brand and their users.
+
+
+-- cta-5:
+help-info: Text Here
+cta-url: cta-url
+cta-txt: Button
+input-placeholder: Label
+
+
+We transform ideas into digital outcomes to elevate the connection between 
+the brand and their users.
+
+
+-- cta-6: We transform ideas into digital outcomes to elevate the connection.
+help-info: KICKER
+cta-url: cta-url
+cta-txt: Button
+
+A design approach is a general philosophy that may or may not include a guide 
+for specific methods.
+
+-- cta-7: We transform ideas into digital outcomes to elevate the connection.
+cta-url: cta-url
+cta-txt: Button
+
+
+A design approach is a general philosophy that may or may not include a guide 
+for specific methods.
+
+
+-- cta-8: We transform ideas into digital outcomes to elevate the connection.
+cta-url: cta-url
+cta-txt: Button
+image : $assets.files.assets.placeholder.svg
+
+A design approach is a general philosophy that may or may not include a 
+guide for specific methods.
+
+
+-- cta-9: SWe transform ideas into digital outcomes to elevate the connection.
+cta-url: cta-url
+cta-txt: Button
+image : $assets.files.assets.placeholder.svg
+
+A design approach is a general philosophy that may or may not include a guide 
+for specific methods.
+
+-- cta-10: 
+cta-primary-url: cta-url
+cta-primary-txt: Button
+cta-secondary-url: cta-url
+cta-secondary-txt: Button
+
+We transform ideas into digital outcomes to elevate the connection between 
+the brand and their users.
+
+
+
+-- cta-11: Strategy and Consultancy.
+help-info: KICKER
+cta-url: cta-url
+cta-txt: Button
+image : $assets.files.assets.placeholder.svg
+
+A design approach is a general philosophy that may or may not include a 
+guide for specific methods.
+
+
+-- cta-12: Strategy and Consultancy.
+help-info: KICKER
+cta-url: cta-url
+cta-txt: Button
+image : $assets.files.assets.placeholder.svg
+
+A design approach is a general philosophy that may or may not include a g
+uide for specific methods.
+
+
+
+
+
+-- cta-13: Strategy and Consultancy.
+cta-url: cta-url
+cta-txt: Button
+image : $assets.files.assets.placeholder.svg
+
+A design approach is a general philosophy that may or may not include a 
+guide for specific methods.
+
+
+-- cta-14: Strategy and Consultancy.
+cta-url: cta-url
+cta-txt: Button
+image : $assets.files.assets.placeholder.svg
+
+A design approach is a general philosophy that may or may not include a 
+guide for specific methods.
+
+-- end: ftd.column
+
+
+
+
+
+
+
+
+
+-- component cta-1:
+body body:
+string cta-url:
+string cta-txt:
+string help-info:
+ftd.image-src image:
+
+-- ftd.row:
+width: fill-container
+align-self: center
+margin.px: 80
+max-width.fixed.px: 1110
+spacing.fixed.px: 120
+
+-- ftd.column:
+width: fill-container
+align-self: center
+
+-- ftd.text: $cta-1.help-info
+background.solid: $light-green
+color: $inherited.colors.cta-primary.base
+border-radius.px: 30
+padding-vertical.px: 5
+role: $inherited.types.link
+padding-horizontal.px: 11
+
+-- ftd.text: 
+role: $inherited.types.copy-large
+style: bold
+margin-top.px: 24
+margin-bottom.px: 8
+color: $inherited.colors.text-strong
+
+$cta-1.body
+
+-- button: $cta-1.cta-txt
+link: $cta-1.cta-url
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $cta-1.image
+width: fill-container
+
+-- end: ftd.row
+
+-- end: cta-1
+
+
+
+
+
+
+
+
+
+
+-- component cta-2:
+optional caption title:
+body body:
+string cta-url:
+string cta-txt:
+string help-info:
+ftd.image-src image:
+
+-- ftd.row:
+width: fill-container
+align-self: center
+margin.px: 80
+max-width.fixed.px: 1110
+spacing.fixed.px: 120
+
+-- ftd.image:
+src: $cta-2.image
+width: fill-container
+
+-- ftd.column:
+width: fill-container
+align-self: center
+
+-- ftd.text: $cta-2.help-info
+background.solid: $light-green
+color: $inherited.colors.cta-primary.base
+border-radius.px: 30
+padding-vertical.px: 5
+padding-horizontal.px: 11
+
+-- ftd.text: 
+role: $inherited.types.copy-large
+style: bold
+margin-top.px: 24
+margin-bottom.px: 8
+color: $inherited.colors.text-strong
+
+$cta-2.body
+
+-- button: $cta-2.cta-txt
+link: $cta-2.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: cta-2
+
+
+
+
+
+
+
+
+
+
+-- component cta-3:
+caption title:
+body body:
+string cta-url:
+string cta-txt:
+string help-info:
+
+-- ftd.row:
+width: fill-container
+align-self: center
+margin.px: 80
+max-width.fixed.px: 1110
+spacing.fixed.px: 120
+
+-- ftd.column:
+width.fixed.percent: 65
+align-self: center
+color: $inherited.colors.text
+spacing.fixed.px: 16
+
+-- ftd.text: $cta-3.help-info
+role: $inherited.types.link
+
+-- ftd.text: $cta-3.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+
+$cta-3.body
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent: 35
+align-content: right
+align-self: center
+
+-- button: $cta-3.cta-txt
+link: $cta-3.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: cta-3
+
+
+
+
+
+
+
+
+
+
+-- component cta-4:
+body body:
+string cta-url:
+string cta-txt:
+string help-info:
+
+-- ftd.column:
+width: fill-container
+align-content: center
+align-self: center
+margin.px: 80
+max-width.fixed.px: 730
+
+-- ftd.text: $cta-4.help-info
+background.solid: $light-green
+color: $inherited.colors.cta-primary.base
+border-radius.px: 30
+padding-vertical.px: 5
+padding-horizontal.px: 11
+role: $inherited.types.link
+
+-- ftd.text: 
+role: $inherited.types.copy-large
+color: $inherited.colors.text-strong
+margin-top.px: 24
+margin-bottom.px: 8
+width: fill-container
+text-align: center
+
+$cta-4.body
+
+-- button: $cta-4.cta-txt
+link: $cta-4.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.column
+
+-- end: cta-4
+
+
+
+
+
+
+
+
+
+-- component cta-5:
+body body:
+string cta-url:
+string cta-txt:
+string help-info:
+string input-placeholder:
+
+-- ftd.column:
+width: fill-container
+align-content: center
+align-self: center
+margin.px: 80
+max-width.fixed.px: 730
+
+-- ftd.text: $cta-5.help-info
+background.solid: $light-green
+color: $inherited.colors.cta-primary.base
+border-radius.px: 30
+padding-vertical.px: 5
+padding-horizontal.px: 11
+role: $inherited.types.link
+
+-- ftd.text: 
+role: $inherited.types.copy-large
+margin-top.px: 24
+color: $inherited.colors.text-strong
+width: fill-container
+text-align: center
+
+$cta-5.body
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 8
+margin-top.px: 8
+align-content: center
+
+-- search-bar: $cta-5.input-placeholder
+
+-- button: $cta-5.cta-txt
+link: $cta-5.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: cta-5
+
+
+
+
+
+
+
+
+
+
+-- component cta-6:
+caption title:
+body body:
+string cta-url:
+string cta-txt:
+string help-info:
+
+-- ftd.column:
+width: fill-container
+align-self: center
+align-content: center
+color: $inherited.colors.text
+max-width.fixed.px: 730
+
+-- ftd.text: $cta-6.help-info
+role: $inherited.types.link
+
+-- ftd.text: $cta-6.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+margin-top.px: 16
+text-align: center
+width: fill-container
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+margin-top.px: 16
+margin-bottom.px: 8
+width: fill-container
+text-align: center
+
+$cta-6.body
+
+-- button: $cta-6.cta-txt
+link: $cta-6.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.column
+
+-- end: cta-6
+
+
+
+
+
+
+
+
+
+
+-- component cta-7:
+caption title:
+body body:
+string cta-url:
+string cta-txt:
+
+-- ftd.row:
+width: fill-container
+align-self: center
+margin.px: 80
+max-width.fixed.px: 1110
+spacing.fixed.px: 120
+background.solid: $inherited.colors.background.base
+padding-vertical.px: 64
+padding-horizontal.px: 80
+border-radius.px: 24
+
+-- ftd.column:
+width.fixed.percent: 65
+align-self: center
+color: $inherited.colors.text
+spacing.fixed.px: 16
+
+-- ftd.text: $cta-7.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+
+$cta-7.body
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent: 35
+align-content: right
+align-self: center
+
+-- button: $cta-7.cta-txt
+link: $cta-7.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: cta-7
+
+
+
+
+
+
+
+
+
+
+-- component cta-8:
+caption title:
+body body:
+string cta-url:
+string cta-txt:
+ftd.image-src image:
+
+-- ftd.row:
+width: fill-container
+align-self: center
+margin.px: 80
+max-width.fixed.px: 1110
+spacing.fixed.px: 120
+
+-- ftd.column:
+width: fill-container
+align-self: center
+color: $inherited.colors.text
+
+-- ftd.text: $cta-8.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+margin-top.px: 8
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+margin-top.px: 8
+
+$cta-8.body
+
+-- button: $cta-8.cta-txt
+link: $cta-8.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $cta-8.image
+width: fill-container
+
+-- end: ftd.row
+
+-- end: cta-8
+
+
+
+
+
+
+
+
+
+
+-- component cta-9:
+caption title:
+body body:
+string cta-url:
+string cta-txt:
+ftd.image-src image:
+
+-- ftd.row:
+width: fill-container
+align-self: center
+margin.px: 80
+max-width.fixed.px: 1110
+spacing.fixed.px: 120
+
+-- ftd.image:
+src: $cta-9.image
+width: fill-container
+
+-- ftd.column:
+width: fill-container
+align-self: center
+color: $inherited.colors.text
+
+-- ftd.text: $cta-9.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+margin-top.px: 8
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+margin-top.px: 8
+
+$cta-9.body
+
+-- button: $cta-9.cta-txt
+link: $cta-9.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: cta-9
+
+
+
+
+
+
+
+
+
+
+
+-- component cta-10:
+body body:
+string cta-primary-url:
+string cta-primary-txt:
+string cta-secondary-url:
+string cta-secondary-txt:
+
+-- ftd.column:
+width: fill-container
+margin.px: 80
+max-width.fixed.px: 1110
+align-self: center
+color: $inherited.colors.text-strong
+
+-- ftd.text: 
+role: $inherited.types.heading-medium
+margin-top.px: 24
+max-width.fixed.px: 653
+
+$cta-10.body
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 8
+margin-top.px: 8
+
+-- button: $cta-10.cta-primary-txt
+link: $cta-10.cta-primary-url
+icon: $assets.files.assets.right-icon.svg
+
+-- button: $cta-10.cta-secondary-txt
+link: $cta-10.cta-secondary-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: cta-10
+
+
+
+
+
+
+
+
+
+
+-- component cta-11:
+caption title:
+body body:
+string cta-url:
+string cta-txt:
+string help-info:
+ftd.image-src image:
+
+-- ftd.row:
+width: fill-container
+align-self: center
+margin.px: 80
+max-width.fixed.px: 1110
+spacing.fixed.px: 120
+
+-- ftd.column:
+width: fill-container
+align-self: center
+color: $inherited.colors.text
+
+-- ftd.text: $cta-11.help-info
+role: $inherited.types.link
+
+-- ftd.text: $cta-11.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+margin-top.px: 8
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+margin-top.px: 8
+
+$cta-11.body
+
+-- button: $cta-11.cta-txt
+link: $cta-11.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $cta-11.image
+width: fill-container
+
+-- end: ftd.row
+
+-- end: cta-11
+
+
+
+
+
+
+
+
+
+
+-- component cta-12:
+caption title:
+body body:
+string cta-url:
+string cta-txt:
+string help-info:
+ftd.image-src image:
+
+-- ftd.row:
+width: fill-container
+align-self: center
+margin.px: 80
+max-width.fixed.px: 1110
+spacing.fixed.px: 120
+
+-- ftd.image:
+src: $cta-12.image
+width: fill-container
+
+-- ftd.column:
+width: fill-container
+align-self: center
+color: $inherited.colors.text
+
+-- ftd.text: $cta-12.help-info
+role: $inherited.types.link
+
+-- ftd.text: $cta-12.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+margin-top.px: 8
+
+-- ftd.text: 
+role: $inherited.types.copy-large
+margin-top.px: 8
+
+$cta-12.body
+
+-- button: $cta-12.cta-txt
+link: $cta-12.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: cta-12
+
+
+
+
+
+
+
+
+
+
+-- component cta-13:
+caption title:
+body body:
+string cta-url:
+string cta-txt:
+ftd.image-src image:
+
+-- ftd.row:
+width: fill-container
+align-self: center
+margin.px: 80
+max-width.fixed.px: 1110
+
+-- ftd.column:
+width.fixed.percent: 70
+align-self: center
+color: $inherited.colors.text
+background.solid: $inherited.colors.background.base
+border-radius.px: 24
+padding.px: 80
+
+-- ftd.text: $cta-13.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+style: regular
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+margin-top.px: 8
+
+$cta-13.body
+
+-- button: $cta-13.cta-txt
+link: $cta-13.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $cta-13.image
+anchor: parent
+align-self: center
+width.fixed.percent: 35
+right.px: 0
+
+-- end: ftd.row
+
+-- end: cta-13
+
+
+
+
+
+
+
+
+
+
+-- component cta-14:
+caption title:
+body body:
+string cta-url:
+string cta-txt:
+ftd.image-src image:
+
+-- ftd.row:
+width: fill-container
+align-self: center
+margin.px: 80
+max-width.fixed.px: 1110
+
+-- ftd.column:
+width.fixed.percent: 35
+align-content: center
+height: fill-container
+
+-- ftd.image:
+src: $cta-14.image
+anchor: parent
+width: fill-container
+left.px: 48
+top.percent: 20
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent: 80
+align-self: center
+color: $inherited.colors.text
+background.solid: $inherited.colors.background.base
+border-radius.px: 24
+padding.px: 80
+
+
+-- ftd.text: $cta-14.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+style: regular
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+margin-top.px: 8
+
+$cta-14.body
+
+-- button: $cta-14.cta-txt
+link: $cta-14.cta-url
+icon: $assets.files.assets.right-icon.svg
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: cta-14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component button:
+caption title:
+string link:
+optional ftd.image-src icon:
+boolean $cta-hover: false
+
+-- ftd.row:
+padding-vertical.px: 10
+padding-horizontal.px: 28
+background.solid: $inherited.colors.cta-primary.base
+margin-top.px: 32
+background.solid if { button.cta-hover }: $inherited.colors.cta-primary.hover
+$on-mouse-enter$: $ftd.set-bool($a = $button.cta-hover, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $button.cta-hover, v = false)
+link: $button.link
+border-radius.px: 4
+
+-- ftd.text: $button.title
+color: $inherited.colors.cta-primary.text
+role: $inherited.types.button-large
+
+-- ftd.image:
+if: { button.icon != NULL }
+src: $button.icon
+margin-left.px: 8
+align-self: center
+
+-- end: ftd.row
+
+-- end: button
+
+
+
+
+
+
+
+
+
+
+
+-- component search-bar:
+caption title:
+
+-- ftd.row:
+
+-- ftd.text-input:
+width.fixed.px: 240
+placeholder: $search-bar.title
+padding-vertical.px: 10
+padding-horizontal.px: 8
+border-width.px: 1
+border-radius.px: 4
+border-color: $inherited.colors.text
+type: text
+role: $inherited.types.copy-small
+color: $inherited.colors.border
+margin-top.px: 32
+
+-- ftd.image:
+anchor: parent
+src: $assets.files.assets.search.svg
+height.fixed.px: 18
+width.fixed.px: 18
+right.px: 15
+top.px: 46
+
+-- end: ftd.row
+
+-- end: search-bar
+
+
+
+
+
+
+
+
+
+;; we don't have this color value in color scheme
+
+-- ftd.color light-green:
+dark: #2dd4bf42
+light: #2dd4bf42
+
